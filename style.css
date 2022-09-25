@@ -40,11 +40,8 @@ font-size: 32px;
   
   /* profileのスタイルシート */
   .item-list{
-  
   width: 100%;
-  
   max-width: 348px;
-  
   margin:  0 auto;
   }
   .item-list b{
@@ -56,12 +53,16 @@ font-size: 32px;
   .item-list p{
       font-size: 14px;
       line-height: normal;
-      text-align: left;
+      text-align: center;
+      color: #00abae;
   }
   
-  .skill-set{
-    color: #00abae;
-    /* margin: 0 auto; */
+  .myself{
+    width: 100%;
+    max-width: 348px;
+    margin:  0 auto;
+    font-size: 14px;
+    text-align: left;
   }
 
   .icon-list {
