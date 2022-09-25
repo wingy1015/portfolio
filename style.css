@@ -9,8 +9,12 @@ body{
 
 .sub-title{
 font-size: 32px;
-
 }
+
+.color-green{
+  color: #00abae;
+}
+
 /* ヘッダーのスタイルシート */
 .block-header{
   padding: 0 15px 10px;
@@ -26,9 +30,7 @@ font-size: 32px;
   letter-spacing: -1px;
 }
 
-.color-green{
-  color: #00abae;
-}
+
 
 /* mainのスタイルシート */
 .block-main{
@@ -134,27 +136,16 @@ font-size: 32px;
 
    /* スマホ用スタイルシート */
   
-   @media screen and (max-width: 767px){
+   @media screen and (max-width:767px){
     body {
       min-width: 100%; 
     }
-
-   .item-list{
-     max-width: 100%;
-   }
-
-   .icon-list{
-     max-width: 100%;
-     margin: 0 auto;
-   }     
-
-   .works-list{
-    max-width: 100%;
-   }
-
-   .works-list li{
-     margin-right: 25px;
-   }
+    .sub-title{
+      font-size: 24px;
+    }
+    .item-list{
+      max-width: 100%;
+    }
 
   /* ヘッダーのスタイルシート */
   .block-header{
@@ -169,17 +160,18 @@ font-size: 32px;
    /* mainのスタイルシート */
   .block-main{
     margin: 50px 0;
+    text-align: center;
     }
 
     /* profileのスタイルシート */
   .box-profile{
-    padding: 0 10px
+    padding: 0 10px;
   }
 
-  .sub-title{
-    font-size: 24px;
-  }
-  
+  .item-list{
+      max-width: 100%;
+    }     
+
   .item-list b{
     font-size: 20px;
     font-weight: bold;
@@ -191,35 +183,51 @@ font-size: 32px;
     text-align: center;
     color: #00abae;
   }
+  
+  
+  .icon-list{
+    max-width: 100%;
+    margin: 0 auto;
+  }     
 
-.myself{
-  font-size: 12px;
-}
+  .myself{
+    font-size: 12px;
+  }
 
-.icon-list li{
+  .icon-list li{
     margin-right: 22px;
-    
-}
+  }
 
 /* worksのスタイルシート */
-.box-works{
-  margin: 60px 0 0;
-}
-   
-.works-list li{
-  float: none;
+  .box-works{
+    margin: 60px 0 0;
+    padding-right: 15px;
+  }
+
+ .works-list{
   max-width: 100%;
-  margin-right: 0;
-  margin-bottom: 30px;
-}
+  }
 
-   .works-list li h3{
-  font-size: 20px;
-  margin: 2px 0;
-}
+  .works-list li{
+    margin-right: 25px;
+  }
 
-.works-list li span{
-  font-size: 13px;
-  margin-bottom: 10px;
+ 
+  
+  .works-list li{
+    float: none;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
 
+  .works-list li h3{
+    font-size: 20px;
+    margin: 2px 0;
+  }
+
+  .works-list li span{
+    font-size: 13px;
+    margin-bottom: 10px;
+    }
 }
