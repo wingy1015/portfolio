@@ -4,7 +4,7 @@
 body{
   font-family: "Noto Sans JP",sans-serif;
   margin: 0;
-  min-width: 1076;
+  min-width: 1076px;
 }
 
 .sub-title{
@@ -123,3 +123,103 @@ font-size: 32px;
 }
 
   .works-list li .link a{background-color: rgb(226,226,226);padding: 5px 20px;margin-right: 10px;font-size: 15px;text-decoration: none;color: #000000;}
+
+  /* フッターのスタイルシート */
+  .block-footer p{
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+    margin: 50px 0 15px;
+    }
+
+   /* スマホ用スタイルシート */
+  
+   @media screen and (max-width: 767px){
+    body {
+      min-width: 100%; 
+    }
+
+   .item-list{
+     max-width: 100%;
+   }
+
+   .icon-list{
+     max-width: 100%;
+     margin: 0 auto;
+   }     
+
+   .works-list{
+    max-width: 100%;
+   }
+
+   .works-list li{
+     margin-right: 25px;
+   }
+
+  /* ヘッダーのスタイルシート */
+  .block-header{
+    padding: 0 10px 10px;
+    box-shadow: 0px 8px 8px -5px rgb(204 204 204 / 30%);
+  }
+  
+  .block-header a{
+    font-size: 28px;
+  }
+
+   /* mainのスタイルシート */
+  .block-main{
+    margin: 50px 0;
+    }
+
+    /* profileのスタイルシート */
+  .box-profile{
+    padding: 0 10px
+  }
+
+  .sub-title{
+    font-size: 24px;
+  }
+  
+  .item-list b{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .item-list p{
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+    color: #00abae;
+  }
+
+.myself{
+  font-size: 12px;
+}
+
+.icon-list li{
+    margin-right: 22px;
+    
+}
+
+/* worksのスタイルシート */
+.box-works{
+  margin: 60px 0 0;
+}
+   
+.works-list li{
+  float: none;
+  max-width: 100%;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+   .works-list li h3{
+  font-size: 20px;
+  margin: 2px 0;
+}
+
+.works-list li span{
+  font-size: 13px;
+  margin-bottom: 10px;
+
+}
